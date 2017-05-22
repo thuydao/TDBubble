@@ -1,0 +1,6 @@
+framework module Pods_TDBubble_Tests {
+  umbrella header "Pods-TDBubble_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

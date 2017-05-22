@@ -1,0 +1,16 @@
+PODS:
+  - TDBubble (0.1.0)
+
+DEPENDENCIES:
+  - TDBubble (from `../`)
+
+EXTERNAL SOURCES:
+  TDBubble:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TDBubble: 2c445800215e8331787ac779538b2fc07c8ad6b5
+
+PODFILE CHECKSUM: 4ed88f63f55e49936ef84a57bd3dd835d37e309c
+
+COCOAPODS: 1.2.0

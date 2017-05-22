@@ -1,0 +1,6 @@
+framework module TDBubble {
+  umbrella header "TDBubble-umbrella.h"
+
+  export *
+  module * { export * }
+}

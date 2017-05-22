@@ -17,13 +17,32 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [NSTimer scheduledTimerWithTimeInterval:.1
+                                     target:self
+                                   selector:@selector(createBubble)
+                                   userInfo:nil
+                                    repeats:YES];
+}
+
+- (void)createBubble {
+    
+    NSArray *arr = @[[UIColor redColor],[UIColor blueColor],[UIColor greenColor],[UIColor yellowColor],[UIColor grayColor]];
+    NSUInteger randomIndex = arc4random() % [arr count];
+    UIColor *color = arr[randomIndex];
+    [self.bubble createBubbleWithColor:color];
+    
 }
 
 @end

@@ -8,6 +8,10 @@
 
 @import UIKit;
 
+#import <TDBubble/TDBubble.h>
+
 @interface TDViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet TDBubbleManager *bubble;
 
 @end
