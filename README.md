@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/TDBubble.svg?style=flat)](http://cocoapods.org/pods/TDBubble)
 [![Platform](https://img.shields.io/cocoapods/p/TDBubble.svg?style=flat)](http://cocoapods.org/pods/TDBubble)
 
+## Demo
+![gif](https://github.com/thuydao/TDBubble/blob/master/ezgif-2-a9027310bd.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
