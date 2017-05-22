@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TDBubble_Example' do
+  pod 'TDBubble', :path => '../'
+
+  target 'TDBubble_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
